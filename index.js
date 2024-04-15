@@ -4,7 +4,7 @@ require('dotenv').config();
 //importar rutas
 const automovilesRutas = require ('./routes/automovilRutas');
 //configuraciones 
-const app = express();celar
+const app = express();
 const PORT = process.env.PORT || 3000;
 const MONGODB_URI = process.env.MONGO_URI;
  // configurar express para json 
